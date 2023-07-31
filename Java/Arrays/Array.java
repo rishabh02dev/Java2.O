@@ -5,7 +5,7 @@ public class Array{
         int marks[] = new int[100];
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("length of array is  " + marks.length);
+        System.out.println("length of the array is  " + marks.length);
 
 
         // marks[0] = sc.nextInt(); //phy
