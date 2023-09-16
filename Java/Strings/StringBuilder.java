@@ -7,4 +7,7 @@ public class StringBuilder {
         }
         System.out.println(sb);
     }
+
+    public void append(char charAt) {
+    }
 }
