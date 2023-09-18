@@ -5,6 +5,6 @@ public class setIthBit{
         return n | bitMask;
     }
     public static void main(String[] args) {
-        System.out.println(setIthBit(10, 3));
+        System.out.println(setIthBit(10, 2));
     }
 }
