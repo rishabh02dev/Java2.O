@@ -11,11 +11,10 @@ public class Queue_Collection {
     queue.offer(48);
     queue.offer(60);
     System.out.println(queue);
-
-      
+    System.out.println(queue.poll());
+    System.out.println(queue);
+    System.out.println(queue.peek());
        
-
-       
-
+ 
     }
 }
