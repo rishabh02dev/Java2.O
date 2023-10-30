@@ -8,6 +8,15 @@ public class inheritance {
         System.out.println(shark.color);
         System.out.println(shark.fish);
 
+        Mahibalipuram Grand = new Mahibalipuram();
+        Grand.place1();
+        Grand.place2();
+        Grand.place();
+        Grand.places();
+        Grand.mahabali = "Mahablipuram";
+        System.out.println(Grand.mahabali);
+        
+
     }
 }
 
@@ -29,6 +38,31 @@ class Fish extends Animal{
 
     void swim(){
         System.out.println("Swims in water");
+    }
+}
+
+class Chennai{
+    String famous_places;
+    void place1(){
+        System.out.println("Marina Beach");
+    }
+    
+    void place2(){
+        System.out.println("Santhome Basilica Church");
+    }
+    void place3(){
+        System.out.println("Light house Chennai");
+    }
+}
+
+class Mahibalipuram extends Chennai{
+    String mahabali;
+    void place(){
+        System.out.println("Shore Temple");
+    }
+
+    void places(){
+        System.out.println("Beach Mahabalipuram");
     }
 }
 

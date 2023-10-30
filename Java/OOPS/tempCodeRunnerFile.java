@@ -1,1 +1,0 @@
-System.out.println(p1.color);
