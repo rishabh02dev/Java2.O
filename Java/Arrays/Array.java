@@ -1,21 +1,20 @@
 import java.util.Scanner;
 
+
 public class Array {
     public static void main(String[] args) {
-        int marks[] = new int[100];
+        //syntax
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("length of the array is  " + marks.length);
+        //datatype[] variable name = new datatype[size];
+        
+        int[] ris = new int[5];
+        System.out.println(ris[0]);
 
-        // marks[0] = sc.nextInt(); //phy
-        // marks[1] = sc.nextInt(); //che
-        // marks[2] = sc.nextInt(); //maths
+        String[] arr = new String[4];
+        System.out.println(arr[0]);
 
-        // System.out.println("physics: " + marks[0]);
-        // System.out.println("chemistry: " + marks[1]);
-        // System.out.println("maths: " + marks[2]);
-        // int percentage = (marks[0] + marks[1] + marks[2])/3;
-        // System.out.println("percentage = " + percentage + "% " );
+        
+
 
     }
 }
